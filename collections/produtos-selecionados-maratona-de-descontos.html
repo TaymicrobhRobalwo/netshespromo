@@ -12,24 +12,10 @@
   <meta name="theme-color" content="">
   <link rel="canonical" href="produtos-selecionados-maratona-de-descontos.html">
 
-<script type="text/javascript">
-    //digite a url de redirect
-    var url_link_redirect_pc = "https://www.netshoes.com.br/";
 
-    //function js
-    function isMobile() {
-        const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
-        return regex.test(navigator.userAgent);
-    }
-
-    //validation js
-    if (isMobile()) { console.log("Mobile device detected"); } else {
-        window.location = url_link_redirect_pc;
-    }
-</script>
 
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       // Função para extrair parâmetros UTM da URL atual
       function getUtmParameters() {
         const urlParams = new URLSearchParams(window.location.search);
@@ -61,7 +47,7 @@
       }
 
       // Intercepta cliques em links
-      document.addEventListener('click', function(e) {
+      document.addEventListener('click', function (e) {
         const link = e.target.closest('a');
         if (link && link.href) {
           // Verifica se o link é interno ou externo
@@ -564,18 +550,18 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
   </script>
-  
-   <script>
-        window.pixelId = "683e825ab1d2311db27bd150";
-        var a = document.createElement("script");
-        a.setAttribute("async", "");
-        a.setAttribute("defer", "");
-        a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
-        document.head.appendChild(a);
-    </script>
 
-    <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck
-        data-utmify-prevent-subids async defer></script>
+  <script>
+    window.pixelId = "683e825ab1d2311db27bd150";
+    var a = document.createElement("script");
+    a.setAttribute("async", "");
+    a.setAttribute("defer", "");
+    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+    document.head.appendChild(a);
+  </script>
+
+  <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck data-utmify-prevent-subids
+    async defer></script>
 
   <link href="https://monorail-edge.shopifysvc.com/" rel="dns-prefetch">
   <script>(function () { if ("sendBeacon" in navigator && "performance" in window) { try { var session_token_from_headers = performance.getEntriesByType('navigation')[0].serverTiming.find(x => x.name == '_s').description; } catch { var session_token_from_headers = undefined; } var session_cookie_matches = document.cookie.match(/_shopify_s=([^;]*)/); var session_token_from_cookie = session_cookie_matches && session_cookie_matches.length === 2 ? session_cookie_matches[1] : ""; var session_token = session_token_from_headers || session_token_from_cookie || ""; function handle_abandonment_event(e) { var entries = performance.getEntries().filter(function (entry) { return /monorail-edge.shopifysvc.com/.test(entry.name); }); if (!window.abandonment_tracked && entries.length === 0) { window.abandonment_tracked = true; var currentMs = Date.now(); var navigation_start = performance.timing.navigationStart; var payload = { shop_id: 67964862625, url: window.location.href, navigation_start, duration: currentMs - navigation_start, session_token, page_type: "collection" }; window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({ schema_id: "online_store_buyer_site_abandonment/1.1", payload: payload, metadata: { event_created_at_ms: currentMs, event_sent_at_ms: currentMs } })); } } window.addEventListener('pagehide', handle_abandonment_event); } }());</script>
@@ -2594,8 +2580,7 @@
                             </a>
                           </h3>
                           <div class="card-information"><span class="caption-large light"></span>
-                            <div class="
-    price  price--on-sale ">
+                            <div class="price  price--on-sale ">
                               <div class="price__container">
                                 <div class="price__regular">
                                   <span class="visually-hidden visually-hidden--inline">Preço normal</span>
